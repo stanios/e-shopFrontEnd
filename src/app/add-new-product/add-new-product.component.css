@@ -1,0 +1,32 @@
+.imgPreview {
+    position: relative;
+}
+
+mat-grid-tile {
+    border: 1px solid #e6e6e6;
+}
+
+.btn-remove-image {
+    position: absolute;
+    cursor: pointer;
+    top: -5px;
+    right: -5px;
+    background-color: rgb(219, 50, 50);
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+    
+}
+
+.drop {
+    height: 150px;
+    min-width: 100px;
+    display: teble;
+    background-color: #eee;
+    width: 300px;
+    border: dashed 1px #aaa;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
